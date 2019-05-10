@@ -1,0 +1,4 @@
+const displayExtraUserInfo = (userInfo) => {
+        document.getElementById('btn-birthdate').addEventListener('click',()=>{
+          displayBirthdate(userInfo)
+        } );
